@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.app {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.app-form-block {
+  margin: 15px 5px;
+  padding: 5px;
+}
+
+.form {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: auto;
+}
+
+.form-elem {
+  margin-left: 3px;
+  width: auto;
+  margin: 0 auto;
+  padding: 5px;
+  border: 1px solid #595957;
+  border-radius: 10px;
+}
+
+.form-label {
+  width: auto;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.form-input {
+  margin-left: 5px;
+  width: 60%;
+  height: 30px;
+  margin: 0 auto;
+}
+
+.form-button {
+  width: auto;
+  height: 100%;
+  padding: 5px;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.app-table-block {
+  margin-top: 40px;
+  border: 1px solid #595957;
+  border-radius: 10px;
+}
+
+.table-block {
+  width: 100%;
+  height: auto;
+  border-spacing: 10px 10px;
+}
+
+.table-block-body-row {
+  text-align: center;
+}
+
+.table-block-body-button-block > button {
+  margin-left: 5px;
+  background-color: #ffffff;
+  border: 1px solid #595957;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 500;
+}
